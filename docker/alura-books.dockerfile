@@ -1,5 +1,5 @@
 FROM node:latest
-MAINTAINER Douglas Quintanilha
+MAINTAINER Cesar O Domingos
 ENV NODE_ENV=development
 COPY . /var/www
 WORKDIR /var/www
